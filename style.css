@@ -1,0 +1,57 @@
+@media only screen and (max-width: 600px) {}
+
+
+
+/* BODY */
+body {
+    background-color: lightblue;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    max-width: 100%;
+}
+
+a {
+    color: #0563bb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #067ded;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    font-family: "Raleway", sans-serif;
+}
+
+.heading h1{
+    background-color: black;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 10px;
+}
+
+.content h3{
+    text-decoration:underline;
+    color: black;
+}
+
+.content h3 :hover{
+    text-decoration:underline;
+    color: whitesmoke;
+}
+
+.btn button{
+    background-color: aquamarine;
+}
+
+.btn button :hover{
+    background-color: blue;
+}
+
